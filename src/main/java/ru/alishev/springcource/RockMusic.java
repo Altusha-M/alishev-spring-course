@@ -5,4 +5,14 @@ public class RockMusic implements Music {
     public String getSong() {
         return "Show must go on!";
     }
+
+    @Override
+    public void myInit() {
+
+    }
+
+    @Override
+    public void myDestroy() {
+
+    }
 }
